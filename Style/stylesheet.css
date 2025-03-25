@@ -1,45 +1,53 @@
-body {
-  background-color: #bfefff;
-  color: #charcoal gray;
-  width: 100%;
-}
 
-img {
-  max-width: 200px;
-  max-height: auto;
-}
+    body {
+      background-color: #bfefff;
+      color: #36454F; /* fixed invalid color */
+      width: 100%;
+    }
 
-table {
-  border-collapse: collapse;
-}
+    img {
+      max-width: 200px;
+      /* Removed invalid max-height */
+    }
 
-th,
-td {
-  border: 2px solid black;
-  padding: 5px;
-}
+    table {
+      border-collapse: collapse;
+    }
 
-thead {
-  background-color: lightgray;
-}
+    th,
+    td {
+      border: 2px solid black;
+      padding: 5px;
+    }
 
-#container {
-  width: 80%;
-  margin: 0 auto;
-}
+    thead {
+      background-color: lightgray;
+    }
 
-.italic {
-  font-style: italic;
-}
+    #container {
+      width: 80%;
+      margin: 0 auto;
+    }
 
-.bold {
-  font-weight: bold;
-}
+    .italic {
+      font-style: italic;
+    }
 
-.underline {
-  text-decoration: underline;
-}
+    .bold {
+      font-weight: bold;
+    }
 
-.info {
-  background-color: lightblue;
-}
+    .underline {
+      text-decoration: underline;
+    }
+
+    .info {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <!-- Your HTML content goes here -->
+</body>
+</html>
+
