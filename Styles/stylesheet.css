@@ -1,0 +1,45 @@
+body {
+  background-color: #bfefff;
+  color: #charcoal gray;
+  width: 100%;
+}
+
+img {
+  max-width: 200px;
+  max-height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+thead {
+  background-color: lightgray;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.info {
+  background-color: lightblue;
+}
